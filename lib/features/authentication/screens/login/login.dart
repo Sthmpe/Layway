@@ -27,9 +27,9 @@ class LoginScreen extends StatelessWidget {
                     height: 150,
                     image: AssetImage(dark ? LayawayImages.lightAppLogo : LayawayImages.darkAppLogo),
                   ),
-									Text(LayawayTexts.loginTitle, style: Theme.of(context).textTheme.headlineMedium,),
-									const SizedBox(height: LayawaySizes.sm,),
-									Text(LayawayTexts.loginSubTitle, style: Theme.of(context).textTheme.headlineMedium,),
+								  Text(LayawayTexts.loginTitle, style: Theme.of(context).textTheme.headlineMedium,),
+								  const SizedBox(height: LayawaySizes.sm,),
+								  Text(LayawayTexts.loginSubTitle, style: Theme.of(context).textTheme.headlineMedium,),
                 ],
               ),
 
@@ -43,16 +43,16 @@ class LoginScreen extends StatelessWidget {
 											labelText: LayawayTexts.email,
 										),
 									),
-                  const SizedBox(height: LayawaySizes.spaceBtwInputFields),
-									/// Password
-                  TextFormField(
-										decoration: const InputDecoration(
-											prefixIcon: Icon(Iconsax.password_check),
-											labelText: LayawayTexts.password,
-                      suffixIcon: Icon(Iconsax.eye_slash),
-										),
+								const SizedBox(height: LayawaySizes.spaceBtwInputFields),
+								/// Password
+								TextFormField(
+									decoration: const InputDecoration(
+										prefixIcon: Icon(Iconsax.password_check),
+										labelText: LayawayTexts.password,
+										suffixIcon: Icon(Iconsax.eye_slash),
 									),
-                  const SizedBox(height: LayawaySizes.spaceBtwInputFields / 2),
+								),
+								const SizedBox(height: LayawaySizes.spaceBtwInputFields / 2),
 								],
 							),),
             ],
