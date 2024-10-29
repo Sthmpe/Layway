@@ -73,6 +73,8 @@ class LayawayHelperFunctions {
   }
 
   static bool isDarkMode(BuildContext context) {
+    print('THEME_IN_USE: ${Theme.of(context).brightness}'); // for debugging
+    print('IsDarkMode: ${Theme.of(context).brightness == Brightness.dark}'); //fort debugging
     return Theme.of(context).brightness == Brightness.dark;
   }
 
@@ -100,7 +102,8 @@ class LayawayHelperFunctions {
   static List<Widget> wrapWidgets(List<Widget> widgets, int rowSize) {
     final wrappedList = <Widget>[];
     for (var i = 0; i < widgets.length; i += rowSize) {
-      final rowChildren = widgets.sublist(i, i + rowSize > widgets.length ? widgets.length : i + rowSize);
+      final rowChildren = widgets.sublist(
+          i, i + rowSize > widgets.length ? widgets.length : i + rowSize);
       wrappedList.add(Row(children: rowChildren));
     }
     return wrappedList;
