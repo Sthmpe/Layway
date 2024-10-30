@@ -34,27 +34,48 @@ class LoginScreen extends StatelessWidget {
               ),
 
 							/// Form
-							Form(child: Column(
-								children: [
-									/// Email
+							Form(
+								child: padding (
+									padding: const EdgeInserts.symetric(vertical: LayawaySizes.spaceBtwSection),
+									child: Column(
+									children: [
+										/// Email
+										TextFormField(
+											decoration: const InputDecoration(
+												prefixIcon: Icon(Iconsax.direct_right),
+												labelText: LayawayTexts.email,
+											),
+										),
+									const SizedBox(height: LayawaySizes.spaceBtwInputFields),
+									/// Password
 									TextFormField(
 										decoration: const InputDecoration(
-											prefixIcon: Icon(Iconsax.direct_right),
-											labelText: LayawayTexts.email,
+											prefixIcon: Icon(Iconsax.password_check),
+											labelText: LayawayTexts.password,
+											suffixIcon: Icon(Iconsax.eye_slash),
 										),
 									),
-								const SizedBox(height: LayawaySizes.spaceBtwInputFields),
-								/// Password
-								TextFormField(
-									decoration: const InputDecoration(
-										prefixIcon: Icon(Iconsax.password_check),
-										labelText: LayawayTexts.password,
-										suffixIcon: Icon(Iconsax.eye_slash),
+									const SizedBox(height: LayawaySizes.spaceBtwInputFields / 2),
+	
+									/// Remember Me & Forget Password
+									Row(
+										mainAxisAlignement: MainAxisAlignment.spacebetween,
+										children: [
+											/// Remember me
+											/// Forget Password
+										],
 									),
+									/// const SizedBox for spacing
+									/// SizedBox for Sign in button using ElevatedButton
+									/// const SizedBox for spacing
+									/// SizedBox for create account button using OutlinedButton
+									/// const SizedBox for spacing
+									],
 								),
-								const SizedBox(height: LayawaySizes.spaceBtwInputFields / 2),
-								],
-							),),
+							),
+							),
+							/// divider
+						/// footer
             ],
           ),
         ),
