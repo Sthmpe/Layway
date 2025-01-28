@@ -1,4 +1,4 @@
-import 'package:amazon_clone/util/constants/sizes.dart';
+import 'package:Layway/util/constants/sizes.dart';
 import 'package:flutter/material.dart';
 
 class LayawaySpacingStyle {

@@ -1,4 +1,4 @@
-import 'package:amazon_clone/app.dart';
+import 'package:Layway/app.dart';
 import 'package:flutter/material.dart';
 
 

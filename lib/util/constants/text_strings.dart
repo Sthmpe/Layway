@@ -1,6 +1,6 @@
-/// This class contais all the App Text in String format
+/// This class contains all the App Text in String format
 class LayawayTexts {
-  // ---Global Texts
+  // --- Global Texts
   static const String submit = "Submit";
   static const String appName = "Layaway Shopping";
   static const String layawayContinue = "Continue";
@@ -8,14 +8,14 @@ class LayawayTexts {
   // --- OnBoarding Texts
   static const String onBoardingTitle1 = "Choose your product";
   static const String onBoardingTitle2 = "Select Payment Method";
-  static const String onBoardingTitle3 = "Deliver at your door step";
+  static const String onBoardingTitle3 = "Deliver at your doorstep";
 
   static const String onBoardingSubTitle1 =
-      "Welcome to a World of Limitless Choices - Your Prefect Product Awiats!";
+      "Welcome to a World of Limitless Choices - Your Perfect Product Awaits!";
   static const String onBoardingSubTitle2 =
-      "For Seamless Transactions, Choose Your Payment Path - Your Convinence, Our Priority!";
+      "For Seamless Transactions, Choose Your Payment Path - Your Convenience, Our Priority!";
   static const String onBoardingSubTitle3 =
-      "From Our Door Step to Yours - Swift, Secure and Contactless Delivery";
+      "From Our Doorstep to Yours - Swift, Secure, and Contactless Delivery";
 
   // --- Home
   static const String homeAppbarTitle = "Good day for shopping";
@@ -37,26 +37,27 @@ class LayawayTexts {
   static const String orSignUpWith = "or Sign Up With";
   static const String iAgreeTo = "I Agree To";
   static const String privacyPolicy = "Privacy Policy";
-  static const String termsOfUSe = "Terms Of Use";
+  static const String termsOfUse = "Terms Of Use";
   static const String verificationCode = "Verification Code";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend Email In";
 
   // --- Authentication Heading Text
   static const String loginTitle = "Welcome Back";
-  static const String loginSubTitle = "Discover limitless CHoices and Unmatched Conversion";
-  static const String  = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-  static const String phoneNumber = "Phone Number";
-
+  static const String loginSubTitle =
+      "Discover limitless Choices and Unmatched Convenience";
+  static const String signupTitle = "Let's create your account";
+  static const String forgetPasswordTitle = "Forget Password";
+  static const String forgetPasswordSubTitle =
+      "Don't worry sometimes people can forget too, enter your email and we will a password reset link";
+  static const String changeYourPasswordTitle = "Password Reset Email Sent";
+  static const String changeYourPasswordSubTitle =
+      "Your account security is our priority! we've sent you a secure link to safetly change your password and keep your account protected";
+  static const String confirmEmail = "Verify your email Address!";
+  static const String confirmEmailSubTitle =
+      "Congratulations Your Account Awaits; Verify Your Email To Start Shopping and Experience a World of Unweavering Deals and Personalized Offers";
+  static const String yourAccountCreatedTitle =
+      "Your account successfully created";
+  static const String yourAccountCreatedSubTitle =
+      "Welcome to Your Unlimited Shopping Destination; Your Account is Created. Unleased the Joy of Seamless Online Shopping!";
 }

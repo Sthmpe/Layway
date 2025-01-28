@@ -1,4 +1,4 @@
-name: amazon_clone
+name: Layway
 description: "A new Flutter project."
 
 publish_to: "none"
@@ -24,6 +24,7 @@ dependencies:
   url_launcher: ^6.3.0
   get_storage: ^2.1.1
   flutter_native_splash: ^2.4.1
+  smooth_page_indicator: ^1.2.0+3
 
 
 
@@ -37,4 +38,22 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  
+  #-------------------------LOCAL ASSETS-----------------------#
+  assets:
+    - assets/logos/
+    - assets/images/on_boarding_images/
+    - assets/icons/
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets\logos\a_small_letter_l_with_a_dot-removebg-preview.png
+  image_dark: assets\logos\a_small_letter_l_with_a_dot-removebg-preview.png
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets\logos\a_small_letter_l_with_a_dot-removebg-preview.png
+    image_dark: assets\logos\a_small_letter_l_with_a_dot-removebg-preview.png
+  web: false
+  ios: true
+  android: true

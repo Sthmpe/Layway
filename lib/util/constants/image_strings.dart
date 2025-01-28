@@ -1,8 +1,8 @@
 /// This class contains all the App Images in String formats.
 class LayawayImages {
   // -- App Logos
-  static const String darkAppLogo = "assets/logos/Screenshot_5-10-2024_123056_dribbble.com-removebg-preview (1).png";
-  static const String lightAppLogo = "assets/logos/Screenshot_5-10-2024_123056_dribbble.com-removebg-preview (1).png";
+  static const String darkAppLogo = "assets/logos/a_small_letter_l_with_a_dot-removebg-preview-edit.png";
+  static const String lightAppLogo = "assets/logos/a_small_letter_l_with_a_dot-removebg-preview-edit.png";
 
   // -- Social Logos
   static const String google = "assets/icons/icons8-google-48.png";

@@ -1,10 +1,10 @@
-import 'package:amazon_clone/features/authentication/controllers/controller.onboarding/onboarding_controller.dart';
-import 'package:amazon_clone/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
-import 'package:amazon_clone/features/authentication/screens/onboarding/widgets/onboarding_next.dart';
-import 'package:amazon_clone/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
-import 'package:amazon_clone/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
-import 'package:amazon_clone/util/constants/text_strings.dart';
-import 'package:amazon_clone/util/constants/image_strings.dart';
+import 'package:Layway/features/authentication/controllers/controller.onboarding/onboarding_controller.dart';
+import 'package:Layway/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
+import 'package:Layway/features/authentication/screens/onboarding/widgets/onboarding_next.dart';
+import 'package:Layway/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
+import 'package:Layway/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
+import 'package:Layway/util/constants/image_strings.dart';
+import 'package:Layway/util/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

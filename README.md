@@ -1,4 +1,4 @@
-# amazon_clone
+# Layway
 
 A new Flutter project.
 

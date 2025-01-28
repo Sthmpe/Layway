@@ -1,6 +1,6 @@
-import 'package:amazon_clone/features/authentication/controllers/controller.onboarding/onboarding_controller.dart';
-import 'package:amazon_clone/util/constants/sizes.dart';
-import 'package:amazon_clone/util/devices/device_utility.dart';
+import 'package:Layway/features/authentication/controllers/controller.onboarding/onboarding_controller.dart';
+import 'package:Layway/util/constants/sizes.dart';
+import 'package:Layway/util/devices/device_utility.dart';
 import 'package:flutter/material.dart';
 
 

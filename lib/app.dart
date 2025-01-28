@@ -1,5 +1,5 @@
-import 'package:amazon_clone/features/authentication/screens/onboarding/onboarding.dart';
-import 'package:amazon_clone/util/theme/theme.dart';
+import 'package:Layway/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:Layway/util/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

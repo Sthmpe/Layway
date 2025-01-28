@@ -1,8 +1,8 @@
-import 'package:amazon_clone/features/authentication/controllers/controller.onboarding/onboarding_controller.dart';
-import 'package:amazon_clone/util/constants/colors.dart';
-import 'package:amazon_clone/util/constants/sizes.dart';
-import 'package:amazon_clone/util/devices/device_utility.dart';
-import 'package:amazon_clone/util/helpers/helper_functions.dart';
+import 'package:Layway/features/authentication/controllers/controller.onboarding/onboarding_controller.dart';
+import 'package:Layway/util/constants/colors.dart';
+import 'package:Layway/util/constants/sizes.dart';
+import 'package:Layway/util/devices/device_utility.dart';
+import 'package:Layway/util/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
