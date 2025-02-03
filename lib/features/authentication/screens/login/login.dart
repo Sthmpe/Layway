@@ -26,9 +26,9 @@ class LoginScreen extends StatelessWidget {
               const LayawayLoginForm(),
 
               /// Divider
-              LayawayLoginDivider(dividerText: LayawayTexts.orSignInWith.capitalize!),
+              LayawayFormDivider(dividerText: LayawayTexts.orSignInWith.capitalize!),
               const SizedBox(
-                width: LayawaySizes.spaceBtwSections,
+                height: LayawaySizes.spaceBtwSections,
               ),
 
               /// Footer

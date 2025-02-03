@@ -36,6 +36,7 @@ class LayawayTexts {
   static const String orSignInWith = "or Sign In With";
   static const String orSignUpWith = "or Sign Up With";
   static const String iAgreeTo = "I Agree To";
+  static const String and = "and";
   static const String privacyPolicy = "Privacy Policy";
   static const String termsOfUse = "Terms Of Use";
   static const String verificationCode = "Verification Code";
@@ -56,6 +57,8 @@ class LayawayTexts {
   static const String confirmEmail = "Verify your email Address!";
   static const String confirmEmailSubTitle =
       "Congratulations Your Account Awaits; Verify Your Email To Start Shopping and Experience a World of Unweavering Deals and Personalized Offers";
+  static const String emailNotreceivedMessage =
+      "Didn't get the email? check your junk/spam or resend it";
   static const String yourAccountCreatedTitle =
       "Your account successfully created";
   static const String yourAccountCreatedSubTitle =

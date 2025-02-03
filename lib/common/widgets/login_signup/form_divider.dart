@@ -2,8 +2,8 @@ import 'package:Layway/util/constants/colors.dart';
 import 'package:Layway/util/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
-class LayawayLoginDivider extends StatelessWidget {
-  const LayawayLoginDivider({super.key, required this.dividerText});
+class LayawayFormDivider extends StatelessWidget {
+  const LayawayFormDivider({super.key, required this.dividerText});
 
   final String dividerText;
 

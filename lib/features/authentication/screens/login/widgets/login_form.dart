@@ -1,6 +1,8 @@
+import 'package:Layway/features/authentication/screens/signup/signup.dart';
 import 'package:Layway/util/constants/sizes.dart';
 import 'package:Layway/util/constants/text_strings.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class LayawayLoginForm extends StatelessWidget {
@@ -27,6 +29,7 @@ class LayawayLoginForm extends StatelessWidget {
 
             /// Password
             TextFormField(
+              obscureText: true,
               decoration: const InputDecoration(
                 prefixIcon: Icon(Iconsax.password_check),
                 labelText: LayawayTexts.password,
@@ -70,7 +73,7 @@ class LayawayLoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: OutlinedButton(
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => const SignupScreen()),
                     child: const Text(LayawayTexts.createAccount))),
           ],
         ),
