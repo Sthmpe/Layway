@@ -1,6 +1,9 @@
 /// This class contains all the App Text in String format
 class LayawayTexts {
   // --- Global Texts
+  static const String and = "and";
+  static const String done = "done";
+  static const String skip = "skip";
   static const String submit = "Submit";
   static const String appName = "Layaway Shopping";
   static const String layawayContinue = "Continue";
@@ -36,7 +39,6 @@ class LayawayTexts {
   static const String orSignInWith = "or Sign In With";
   static const String orSignUpWith = "or Sign Up With";
   static const String iAgreeTo = "I Agree To";
-  static const String and = "and";
   static const String privacyPolicy = "Privacy Policy";
   static const String termsOfUse = "Terms Of Use";
   static const String verificationCode = "Verification Code";

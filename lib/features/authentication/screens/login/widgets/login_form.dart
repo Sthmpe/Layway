@@ -1,4 +1,6 @@
+import 'package:Layway/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:Layway/features/authentication/screens/signup/signup.dart';
+import 'package:Layway/navigation_menu.dart';
 import 'package:Layway/util/constants/sizes.dart';
 import 'package:Layway/util/constants/text_strings.dart';
 import 'package:flutter/material.dart';
@@ -52,7 +54,7 @@ class LayawayLoginForm extends StatelessWidget {
 
                 /// Forget Password
                 TextButton(
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => const ForgetPassword()),
                     child: const Text(LayawayTexts.forgetPassword)),
               ],
             ),
@@ -64,7 +66,7 @@ class LayawayLoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {}, child: const Text(LayawayTexts.signIn))),
+                    onPressed: () => Get.to(() => const NavigationMenu()), child: const Text(LayawayTexts.signIn))),
             const SizedBox(
               height: LayawaySizes.spaceBtwItems,
             ),
