@@ -1,3 +1,5 @@
+import 'package:Layway/util/constants/colors.dart';
+import 'package:Layway/util/constants/sizes.dart';
 import 'package:flutter/material.dart';
 
 class LayawayAppBarTheme {
@@ -9,9 +11,9 @@ class LayawayAppBarTheme {
     scrolledUnderElevation: 0,
     backgroundColor: Colors.transparent,
     surfaceTintColor: Colors.transparent,
-    iconTheme: IconThemeData(color: Colors.black, size: 24.0),
-    actionsIconTheme: IconThemeData(color: Colors.black, size: 24.0),
-    titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.black)
+    iconTheme: IconThemeData(color: LayawayColors.black, size: LayawaySizes.iconSm),
+    actionsIconTheme: IconThemeData(color: LayawayColors.black, size: LayawaySizes.iconSm),
+    titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: LayawayColors.black)
   );
 
    static const darkAppBarTheme = AppBarTheme(
@@ -20,8 +22,8 @@ class LayawayAppBarTheme {
     scrolledUnderElevation: 0,
     backgroundColor: Colors.transparent,
     surfaceTintColor: Colors.transparent,
-    iconTheme: IconThemeData(color: Colors.white, size: 24.0),
-    actionsIconTheme: IconThemeData(color: Colors.white, size: 24.0),
-    titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.white)
+    iconTheme: IconThemeData(color: LayawayColors.white, size: LayawaySizes.iconSm),
+    actionsIconTheme: IconThemeData(color: LayawayColors.white, size: LayawaySizes.iconSm),
+    titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: LayawayColors.white)
   );
 }

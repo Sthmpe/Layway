@@ -1,5 +1,6 @@
-import 'package:Layway/features/shop/screens/home/widgets/home.dart';
+import 'package:Layway/features/shop/screens/home/home.dart';
 import 'package:Layway/util/constants/colors.dart';
+import 'package:Layway/util/constants/sizes.dart';
 import 'package:Layway/util/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -24,10 +25,10 @@ class NavigationMenu extends StatelessWidget {
           onDestinationSelected: (index) =>
               controller.selectedIndex.value = index,
           destinations: const [
-            NavigationDestination(icon: Icon(Iconsax.home, size: 18), label: 'Home'),
-            NavigationDestination(icon: Icon(Iconsax.shop, size: 18), label: 'Store'),
-            NavigationDestination(icon: Icon(Iconsax.heart, size: 18), label: 'Whislist'),
-            NavigationDestination(icon: Icon(Iconsax.user, size: 18), label: 'Profile'),
+            NavigationDestination(icon: Icon(Iconsax.home, size: LayawaySizes.iconSm), label: 'Home'),
+            NavigationDestination(icon: Icon(Iconsax.shop, size: LayawaySizes.iconSm), label: 'Store'),
+            NavigationDestination(icon: Icon(Iconsax.heart, size: LayawaySizes.iconSm), label: 'Whislist'),
+            NavigationDestination(icon: Icon(Iconsax.user, size: LayawaySizes.iconSm), label: 'Profile'),
           ],
         ),
       ),
