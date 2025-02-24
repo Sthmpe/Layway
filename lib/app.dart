@@ -13,7 +13,7 @@ class App extends StatelessWidget {
       theme: LayawayAppTheme.lightTheme,
       darkTheme: LayawayAppTheme.darkTheme,
       home: const OnBoardingScreen(),
-      // debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
     );
   }
 }

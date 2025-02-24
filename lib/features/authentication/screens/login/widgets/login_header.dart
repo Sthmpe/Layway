@@ -14,6 +14,7 @@ class LayawayLoginHeader extends StatelessWidget {
     final dark = LayawayHelperFunctions.isDarkMode(context);
 
     return Column(
+      mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Image(

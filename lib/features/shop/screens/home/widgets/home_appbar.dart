@@ -13,6 +13,7 @@ class LayawayHomeAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayawayAppBar(
       title: Column(
+        //mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(LayawayTexts.homeAppbarTitle,

@@ -24,7 +24,8 @@ class LayawayCartCounterIcon extends StatelessWidget {
           ),
         ),
         Positioned(
-          right: 0,
+          top: 8,
+          right: 5,
           child: Container(
             width: 18,
             height: 18,
