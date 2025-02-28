@@ -11,10 +11,16 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            /// Header
             LayawayPrimaryHeaderContainer(
               child: Column(
                 children: [
+                  /// --- Appbar
                   LayawayHomeAppBar(),
+
+                  /// --- Searchbar
+                  
+                  /// --- Categories
                 ],
               ),
             ),

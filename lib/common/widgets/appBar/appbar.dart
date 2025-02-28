@@ -23,7 +23,7 @@ class LayawayAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: LayawaySizes.md),
+      padding: const EdgeInsets.symmetric(horizontal: 2),
       child: AppBar(
         automaticallyImplyLeading: false,
         leading: showBackArrow 

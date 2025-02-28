@@ -15,22 +15,26 @@ class LayawayCartCounterIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
+     clipBehavior: Clip.none, // Prevents content from getting cut off
       children: [
-        IconButton(
-          onPressed: () {},
-          icon: Icon(
-            Iconsax.shopping_bag,
-            color: iconColor,
+        Padding(
+          padding: const EdgeInsets.only(right: 10), // Moves icon slightly left
+          child: IconButton(
+            onPressed: onPressed,
+            icon: Icon(
+              Iconsax.shopping_bag,
+              color: iconColor,
+            ),
           ),
         ),
         Positioned(
-          top: 8,
-          right: 5,
+          top: 6,
+          right: 15,
           child: Container(
             width: 18,
             height: 18,
             decoration: BoxDecoration(
-              color: LayawayColors.red,
+              color: LayawayColors.black,
               borderRadius: BorderRadius.circular(100),
             ),
             child: Center(

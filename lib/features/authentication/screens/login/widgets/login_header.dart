@@ -13,27 +13,30 @@ class LayawayLoginHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     final dark = LayawayHelperFunctions.isDarkMode(context);
 
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Image(
-          height: 150,
-          image: AssetImage(
-              dark ? LayawayImages.lightAppLogo : LayawayImages.darkAppLogo),
-        ),
-        Text(
-          LayawayTexts.loginTitle,
-          style: Theme.of(context).textTheme.headlineMedium,
-        ),
-        const SizedBox(
-          height: LayawaySizes.sm,
-        ),
-        Text(
-          LayawayTexts.loginSubTitle,
-          style: Theme.of(context).textTheme.bodyMedium,
-        ),
-      ],
+    return SizedBox(
+       width: double.infinity,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Image(
+            height: 150,
+            image: AssetImage(
+                dark ? LayawayImages.lightAppLogo : LayawayImages.darkAppLogo),
+          ),
+          Text(
+            LayawayTexts.loginTitle,
+            style: Theme.of(context).textTheme.headlineMedium,
+          ),
+          const SizedBox(
+            height: LayawaySizes.sm,
+          ),
+          Text(
+            LayawayTexts.loginSubTitle,
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
+        ],
+      ),
     );
   }
 }
